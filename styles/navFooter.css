@@ -90,8 +90,10 @@
 #header-container{
     height:100%;
 }
-.logo{
-    height:85%;
+a>.logo{
+    margin-top: -0.5vh;
+    height: 4.5vh;
+    
 }
 #search-btn {
     width:1.5vh;
@@ -134,7 +136,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .search-box {
-        padding: 5px;
+        padding: 7px;
     }
     .loupe{
         width:15px;

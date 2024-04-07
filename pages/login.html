@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CVI</title>
     <link rel="stylesheet" href="../styles/navFooter.css">
+    <link rel="stylesheet" href="../styles/login.css">
 </head>
 
 <body>
@@ -15,7 +16,8 @@
                 <img src="../images/logo.svg" class="logo">
             </a>
             <nav id="navigation">
-                <p>Já é cadastrado? <a class="nav-ls" href="./login.html">LOGIN</a> ou <a class="nav-ls" href="./singup.html">CADASTRE-SE</a></p>
+                <p>Já é cadastrado? <a class="nav-ls" href="./login.html">LOGIN</a> ou <a class="nav-ls"
+                        href="./singup.html">CADASTRE-SE</a></p>
                 <div id="nav-container">
                     <a class="navegation-link" href="../home.html">INÍCIO</a>
                     &nbsp|&nbsp
@@ -27,7 +29,6 @@
                         <input type="text" class="search-text" placeholder="Pesquisar...">
                         <button id="search-btn" type="submit">
                             <img class="loupe" src="../images/find.svg" alt="lupa">
-                
                         </button>
                     </div>
                 </div>
@@ -35,9 +36,25 @@
         </div>
 
     </header>
-    <section></section>
+    <section id="container">
+        <div id="login-container">
+            <form id="forms">
+                <label for="email" class="input-login">E-mail:</label>
+                <input type="text" placeholder="exemplo@cvi.com" name="email" class="input-login">
+                <label for="pass" class="input-login">Password:</label>
+                <input type="password" name="pass" class="input-login" placeholder="******">
+                <p>
+                    <a>Esqueceu a senha?</a>
+                    <br>
+                    Não tem conta? <a href="singup.html">Crie uma!</a>
+                </p>
+
+                <button>ENTRAR</button>
+            </form>
+        </div>
+    </section>
     <footer id="footer">
-        <img src="">
+        <p>© Instituto Metrópole Digital</p>
     </footer>
 </body>
 
