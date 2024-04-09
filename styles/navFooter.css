@@ -26,8 +26,7 @@ body{
     left:0;
     height: 5vh;
     width:100%;
-    background-color: #1d87b1;
-    opacity: 90%;
+    background-color: rgba(29, 135, 177,0.9);
     color:white;
     box-shadow: 0px 2px 8px rgb(0,0,0); 
     z-index: 1;
@@ -40,6 +39,7 @@ body{
     flex-direction: row;
     justify-content:space-between;  
     padding:0 2% 0 2%; 
+    
 }
 #nav-container{
     font-family: "roboto-B";
@@ -49,6 +49,7 @@ body{
 #nav-container>a{
     text-decoration: none;
     color:inherit;
+ 
 
 }
 #navigation>p>a{
@@ -130,8 +131,7 @@ a>.logo{
     display:flex;
     height: 5vh;
     width:100%;
-    background-color: #1d87b1;
-    opacity: 90%;
+    background-color: rgba(29, 135, 177,0.9);
     color:white;
     font-family: "roboto-B";
     justify-content: center;
