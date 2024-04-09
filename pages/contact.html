@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CVI</title>
+    <title>CV</title>
     <link rel="stylesheet" href="../styles/navFooter.css">
-    <link rel="icon" href="../images/logo.svg" type="image/svg+xml">
+    <link rel="icon" href="../images/logo2.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles/contact.css">
 
 </head>
 
@@ -17,7 +18,8 @@
                 <img src="../images/logo.svg" class="logo">
             </a>
             <nav id="navigation">
-                <p>Já é cadastrado? <a class="nav-ls" href="./login.html">LOGIN</a> ou <a class="nav-ls" href="./singup.html">CADASTRE-SE</a></p>
+                <p>Já é cadastrado? <a class="nav-ls" href="./login.html">LOGIN</a> ou <a class="nav-ls"
+                        href="./singup.html">CADASTRE-SE</a></p>
                 <div id="nav-container">
                     <a class="navegation-link" href="../home.html">INÍCIO</a>
                     &nbsp|&nbsp
@@ -29,15 +31,35 @@
                         <input type="text" class="search-text" placeholder="Pesquisar...">
                         <button id="search-btn" type="submit">
                             <img class="loupe" src="../images/find.svg" alt="lupa">
-                
+
                         </button>
+
                     </div>
                 </div>
             </nav>
         </div>
 
     </header>
-    <section></section>
+    <section id="container">
+        <div id="contact-container">
+            <h1>FALE CONOSCO</h1>
+            <form action="#" method="POST" id="forms">
+                <label for="name">Nome:</label>
+                <input class="contact-input" type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input class="contact-input" type="email" id="email"  placeholder="exemplo@cv.com"name="email" required>
+
+                <label for="subject">Assunto:</label>
+                <input class="contact-input" type="text"  id="subject" name="subject" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required ></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
     <footer id="footer">
         <p>© Instituto Metrópole Digital</p>
     </footer>

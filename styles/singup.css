@@ -10,13 +10,7 @@
     height: 90vh;
     margin:5vh auto;
 }
-#contact-container>h1{
-    color:white;
-    text-align: center;
-    font-family: 'roboto-B';
-    font-size: 3vh;
-}
-#contact-container{
+#singup-container{
     width:40vh;
     background-color: #1B80BF;
     position: relative;
@@ -31,11 +25,11 @@
     width: 35vh;
     position:relative;
     top:10%;
-    font-family: "roboto-B";
-    font-size: 2vh;
+    font-family: "roboto-m";
+    font-size: 1.5vh;
     color:white;
 }
-.contact-input{
+.singup-input{
     border:none;
     border-radius: 0.5vh;
     height: 2.5vh;
@@ -44,19 +38,11 @@
     padding: 3px;
     margin-bottom: 1vh;
 }
-#forms>textarea{
-    border:none;
-    border-radius: 0.5vh;
-    height: 30%;
-    width: 100%;
-    font-size: 1.5vh;
-    padding: 3px;
-    margin-bottom: 0.5vh;
-}
+
 #forms>button{
     width:20vh;
     height:3vh;
-    margin:1vh 7.5vh;
+    margin:5vh 7.5vh;
     border-radius: 0.5vh;
     border:none;
     background-color: white;

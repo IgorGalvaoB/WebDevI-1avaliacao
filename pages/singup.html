@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CVI</title>
     <link rel="stylesheet" href="../styles/navFooter.css">
-    <link rel="icon" href="../images/logo.svg" type="image/svg+xml">
-   
+    <link rel="icon" href="../images/logo2.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles/singup.css">
+
 </head>
 
 <body>
@@ -17,7 +18,8 @@
                 <img src="../images/logo.svg" class="logo">
             </a>
             <nav id="navigation">
-                <p>Já é cadastrado? <a class="nav-ls" href="./login.html">LOGIN</a> ou <a class="nav-ls" href="./singup.html">CADASTRE-SE</a></p>
+                <p>Já é cadastrado? <a class="nav-ls" href="./login.html">LOGIN</a> ou <a class="nav-ls"
+                        href="./singup.html">CADASTRE-SE</a></p>
                 <div id="nav-container">
                     <a class="navegation-link" href="../home.html">INÍCIO</a>
                     &nbsp|&nbsp
@@ -29,15 +31,34 @@
                         <input type="text" class="search-text" placeholder="Pesquisar...">
                         <button id="search-btn" type="submit">
                             <img class="loupe" src="../images/find.svg" alt="lupa">
-                
                         </button>
                     </div>
                 </div>
             </nav>
         </div>
-
     </header>
-    <section></section>
+    <section id="container">
+        <div id="singup-container">
+            
+            <form action="#" id="forms">
+                <label class="singup-label" for="name">Nome:</label>
+                <input class="singup-input" type="text" id="name" name="name" required>
+                <label class="singup-label" for="phone">Telefone:</label>
+                <input class="singup-input" type="tel" id="phone" name="phone" placeholder="(99) 9 9999-9999" required>
+                <label class="singup-label" for="email">E-mail:</label>
+                <input class="singup-input" type="email" id="email" name="email" required placeholder="exemplo@cv.com">
+                <label class="singup-label" for="confirm-password">CPF:</label>
+                <input class="singup-input" type="password" id="password" name="password" placeholder="000.000.000-00">
+                <label class="singup-label" for="password">Senha:</label>
+                <input class="singup-input" type="password" id="password" placeholder="******" name="password" required>
+                <label class="singup-label" for="confirm-password" >Confirmar senha:</label>
+                <input class="singup-input" type="password" id="confirm-password" name="confirm-password" placeholder="******" required>
+                <button type="submit">ENVIAR</button>
+                    
+      
+            </form>
+        </div>
+    </section>
     <footer id="footer">
         <p>© Instituto Metrópole Digital</p>
     </footer>
