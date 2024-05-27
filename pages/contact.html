@@ -41,22 +41,31 @@
 
     </header>
     <section id="container">
-        <div id="contact-container">
-            <h1>FALE CONOSCO</h1>
+        <div id="contact-container" class="container">
+            <h1 class="text-center">FALE CONOSCO</h1>
             <form action="#" method="POST" id="forms">
-                <label for="name">Nome:</label>
-                <input class="contact-input" type="text" id="name" name="name" required>
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input class="form-control" type="text" id="name" name="name" required>
+                </div>
 
-                <label for="email">E-mail:</label>
-                <input class="contact-input" type="email" id="email"  placeholder="exemplo@cv.com"name="email" required>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input class="form-control" type="email" id="email" placeholder="exemplo@cv.com" name="email"
+                        required>
+                </div>
 
-                <label for="subject">Assunto:</label>
-                <input class="contact-input" type="text"  id="subject" name="subject" required>
+                <div class="form-group">
+                    <label for="subject">Assunto:</label>
+                    <input class="form-control" type="text" id="subject" name="subject" required>
+                </div>
 
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="5" required ></textarea>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
 
-                <button type="submit">Enviar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </section>

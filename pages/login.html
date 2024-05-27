@@ -38,19 +38,24 @@
         </div>
     </header>
     <section id="container">
-        <div id="login-container">
+        <div id="login-container" class="container">
             <form id="forms">
-                <label for="email" class="input-login">E-mail:</label>
-                <input type="text" placeholder="exemplo@cvi.com" name="email" class="input-login">
-                <label for="pass" class="input-login">Password:</label>
-                <input type="password" name="pass" class="input-login" placeholder="******">
-                <p>
-                    <a>Esqueceu a senha?</a>
-                    <br>
-                    Não tem conta? <a href="singup.html">Crie uma!</a>
-                </p>
-
-                <button type="submit">ENTRAR</button>
+                <div class="form-group">
+                    <label for="email" class="input-login">E-mail:</label>
+                    <input type="email" placeholder="exemplo@cvi.com" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="pass" class="input-login">Password:</label>
+                    <input type="password" name="pass" class="form-control" placeholder="******">
+                </div>
+                <div class="form-group">
+                    <p>
+                        <a href="#">Esqueceu a senha?</a>
+                        <br>
+                        Não tem conta? <a href="singup.html">Crie uma!</a>
+                    </p>
+                </div>
+                <button type="submit" class="btn btn-primary">ENTRAR</button>
             </form>
         </div>
     </section>
