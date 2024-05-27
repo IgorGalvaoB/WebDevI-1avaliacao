@@ -38,24 +38,29 @@
         </div>
     </header>
     <section id="container">
-        <div id="singup-container">
-            
+        <div id="singup-container" class="container">
             <form action="#" id="forms">
-                <label class="singup-label" for="name">Nome:</label>
-                <input class="singup-input" type="text" id="name" name="name" required>
-                <label class="singup-label" for="phone">Telefone:</label>
-                <input class="singup-input" type="tel" id="phone" name="phone" placeholder="(99) 9 9999-9999" required>
-                <label class="singup-label" for="email">E-mail:</label>
-                <input class="singup-input" type="email" id="email" name="email" required placeholder="exemplo@cv.com">
-                <label class="singup-label" for="confirm-password">CPF:</label>
-                <input class="singup-input" type="password" id="password" name="password" placeholder="000.000.000-00">
-                <label class="singup-label" for="password">Senha:</label>
-                <input class="singup-input" type="password" id="password" placeholder="******" name="password" required>
-                <label class="singup-label" for="confirm-password" >Confirmar senha:</label>
-                <input class="singup-input" type="password" id="confirm-password" name="confirm-password" placeholder="******" required>
-                <button type="submit">ENVIAR</button>
-                    
-      
+                <div class="form-group">
+                    <label class="singup-label" for="name">Nome:</label>
+                    <input class="form-control" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label class="singup-label" for="phone">Telefone:</label>
+                    <input class="form-control" type="tel" id="phone" name="phone" placeholder="(99) 9 9999-9999" required>
+                </div>
+                <div class="form-group">
+                    <label class="singup-label" for="email">E-mail:</label>
+                    <input class="form-control" type="email" id="email" name="email" required placeholder="exemplo@cv.com">
+                </div>
+                <div class="form-group">
+                    <label class="singup-label" for="password">Senha:</label>
+                    <input class="form-control" type="password" id="password" placeholder="******" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label class="singup-label" for="confirm-password">Confirmar senha:</label>
+                    <input class="form-control" type="password" id="confirm-password" name="confirm-password" placeholder="******" required>
+                </div>
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
             </form>
         </div>
     </section>
