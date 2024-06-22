@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="../../styles/navFooter.css" />
+    <link rel="icon" href="../../images/logo2.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./contact.css" />
+    <script src="../../script/global.js" defer></script>
+  </head>
+
+  <body>
+    <header id="header" class="header"></header>
+    <main class="container-form">
+      <div class="contact-form">
+        <h1>FALE CONOSCO</h1>
+        <form action="#" method="POST" id="forms">
+          <div class="label-div">
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="label-div">
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="exemplo@cv.com"
+              class="form-control"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="label-div">
+            <label for="subject">Assunto:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="label-div">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer id="footer" class="footer"></footer>
+  </body>
+</html>

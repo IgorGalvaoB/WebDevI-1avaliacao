@@ -1,0 +1,87 @@
+.container-form {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cef1f2;
+}
+
+.contact-form {
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.label-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2%;
+}
+
+form {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+label {
+    font-family: "roboto-m";
+    font-size: 2vh;
+    margin-bottom: 1%;
+}
+
+input {
+    width: 100%;
+    height: 2.5vh;
+    font-family: "roboto-m";
+    font-size: 2vh;
+    padding: 2%;
+}
+
+textarea {
+    width: 100%;
+    height: 10vh;
+    font-family: "roboto-m";
+    font-size: 2vh;
+    padding: 1%;
+}
+
+button {
+    width: 14%;
+    height: auto;
+    background-color: #06444a;
+    color: white;
+    font-family: "roboto-m";
+    font-size: 2vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 2%;
+    padding: 0.6%;
+
+    &:hover {
+        background-color: #0d6e75;
+    }
+}
+
+h1 {
+    font-size: 2.5vh;
+    font-family: "roboto-m";
+    margin-bottom: 2%;
+    align-self: center;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="../../styles/navFooter.css" />
+    <link rel="icon" href="../../images/logo2.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../../styles/form.css" />
+    <script src="../../script/global.js" defer></script>
+  </head>
+
+  <body>
+    <header id="header" class="header"></header>
+    <main class="container-form">
+      <div class="div-form">
+        <h1>CADASTRO</h1>
+        <form action="#" id="forms">
+          <div class="label-div">
+            <label for="name">Nome:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="label-div">
+            <label for="phone">Telefone:</label>
+            <input
+              class="form-control"
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="(99) 9 9999-9999"
+              required
+            />
+          </div>
+          <div class="label-div">
+            <label for="email">E-mail:</label>
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="exemplo@cv.com"
+            />
+          </div>
+          <div class="label-div">
+            <label for="password">Senha:</label>
+            <input
+              class="form-control"
+              type="password"
+              id="password"
+              placeholder="******"
+              name="password"
+              required
+            />
+          </div>
+          <div class="label-div">
+            <label for="confirm-password">Confirmar senha:</label>
+            <input
+              class="form-control"
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="******"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">ENVIAR</button>
+        </form>
+      </div>
+    </main>
+    <footer id="footer" class="footer"></footer>
+  </body>
+</html>

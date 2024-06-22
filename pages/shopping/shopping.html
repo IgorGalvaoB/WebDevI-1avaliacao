@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compras</title>
+    <link rel="icon" href="../../images/logo2.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../../styles/navFooter.css" />
+    <link rel="stylesheet" href="../../styles/form.css" />
+    <link rel="stylesheet" href="./shopping.css" />
+    <script src="../../script/global.js" defer></script>
+    <script src="./shopping.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="header"></header>
+    <main class="container-form">
+      <div class="div-form">
+        <h1>Compras</h1>
+        <form action="#" onsubmit="redirecionarParaPagamento(event)" id="forms">
+          <div class="label-div">
+            <label for="item">Item:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="item"
+              name="item"
+              required
+            />
+          </div>
+          <div class="label-div">
+            <label for="quantity">Quantidade:</label>
+            <input
+              class="form-control"
+              type="number"
+              id="quantity"
+              name="quantity"
+              required
+            />
+          </div>
+          <div class="label-div">
+            <label for="price">Preço:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="price"
+              name="price"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Adicionar</button>
+        </form>
+      </div>
+    </main>
+    <footer id="footer" class="footer"></footer>
+  </body>
+</html>

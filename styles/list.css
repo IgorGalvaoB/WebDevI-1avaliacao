@@ -1,12 +1,9 @@
 #valores {
-    margin: 0% 3% 0% 3%;
+    margin-left: 2%;
+    padding: 0.8%;
 }
 #description {
-    margin: 0% 3% 0% 3%;
+    margin: 1% 0 0 3%;
     font-family: 'roboto-m';
     font-size: 16px;
-    padding-bottom: 8%;
-}
-main {
-    margin-bottom: 3%;
 }
