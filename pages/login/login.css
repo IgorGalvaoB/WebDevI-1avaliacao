@@ -85,3 +85,8 @@ h1 {
     margin-bottom: 2%;
     align-self: center;
 }
+
+.feedback {
+  margin-top: 15px;
+  font-size: 1.2em;
+}
